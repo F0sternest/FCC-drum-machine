@@ -1,7 +1,6 @@
 import React from "react";
 
 function SoundBtn({ audioSample, type }) {
-
   const PlayAudio = () => {
     audioSample.play();
   };
